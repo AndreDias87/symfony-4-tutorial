@@ -16,8 +16,15 @@ jobs:
     steps:
       - checkout
       - run:
-            name: Install PHP MySQL
-            command: sudo docker-php-ext-install pdo_mysql
+        name: Install Sodium Library
+        command: |
+          sudo git clone https://github.com/jedisct1/libsodium --branch stable && cd libsodium && sudo ./configure && sudo make && sudo make check && sudo make install
+      - run:
+          name: Install zlib
+          command: sudo apt-get install libzip-dev
+      - run:
+          name: Install PHP extensions
+          command: sudo docker-php-ext-configure zip --with-libzip && sudo docker-php-ext-install pdo_mysql sodium zip
       - run:
           name: Wait for MySQL
           command: dockerize -wait tcp://127.0.0.1:3306 -timeout 120s
