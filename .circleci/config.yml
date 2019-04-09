@@ -36,4 +36,4 @@ jobs:
           command: composer install -n --prefer-dist
       - run:
           name: Run migrations
-          command: php bin/console doctrine:migrations:migrate --end=test --no-interaction
+          command: php bin/console doctrine:migrations:migrate --env=test --no-interaction
