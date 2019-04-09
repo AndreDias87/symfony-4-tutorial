@@ -47,6 +47,16 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Install Sodium Library
+          command: |
+            sudo git clone https://github.com/jedisct1/libsodium --branch stable && cd libsodium && sudo ./configure && sudo make && sudo make check && sudo make install
+      - run:
+          name: Install zlib
+          command: sudo apt-get install libzip-dev
+      - run:
+          name: Install PHP extensions
+          command: sudo docker-php-ext-configure zip --with-libzip && sudo docker-php-ext-install pdo_mysql sodium zip
+      - run:
           name: Composer install
           command: composer install -n --prefer-dist
       - run:
