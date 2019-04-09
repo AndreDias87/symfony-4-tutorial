@@ -47,10 +47,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install Sodium Library
-          command: |
-            sudo git clone https://github.com/jedisct1/libsodium --branch stable && cd libsodium && sudo ./configure && sudo make && sudo make check && sudo make install
-      - run:
           name: Install zlib
           command: sudo apt-get install libzip-dev
       - run:
