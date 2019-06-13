@@ -16,7 +16,7 @@
         <header>
             <nav>
                 <div class="row">
-                    <img src="/build/css/img/bp.png" alt="Stay High logo" class="logo">
+                    <img src="{{ asset('build/css/img/bp.png') }}" alt="Stay High logo" class="logo">
                     <ul class="main-nav">
                         <li><a href="#">The Beauty Pass</a></li>
                         <li><a href="#">Como funciona</a></li>
@@ -42,7 +42,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-4 box">
-                    <!--<i class="ion-ios-calendar-outline icon-big"></i>-->
+                    <i class="ion-ios-calendar-outline icon-big"></i>
                     <i class="fas fa-calendar-alt icon-big"></i>
                     <h3>Em qualquer lugar</h3>
                     <p>
@@ -50,7 +50,7 @@
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <!--<i class="ion-ios-timer-outline icon-big"></i>-->
+                    <i class="ion-ios-timer-outline icon-big"></i>
                     <i class="fas fa-clock icon-big"></i>
                     <h3>Ao seu alcance</h3>
                     <p>
@@ -58,7 +58,7 @@
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <!--<i class="ion-ios-cloud-download-outline icon-big"></i>-->
+                    <i class="ion-ios-cloud-download-outline icon-big"></i>
                     <i class="fas fa-bezier-curve icon-big"></i>
                     <h3>Flexível</h3>
                     <p>
@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <!--<i class="ion-ios-cart-outline icon-big"></i>-->
+                    <i class="ion-ios-cart-outline icon-big"></i>
                     <i class="fas fa-users icon-big"></i>
                     <h3>Conheça pessoas</h3>
                     <p>
@@ -80,22 +80,22 @@
             <ul class="products-showcase clearfix">
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_7.jpeg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_7.jpeg')}}" alt="sobrancelha">
                     </figure>
                 </li>
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_2.jpg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_2.jpg')}}" alt="salao_1">
                     </figure>
                 </li>
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_9.jpg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_9.jpg')}}" alt="salao_2">
                     </figure>
                 </li>
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_4.jpg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_4.jpg')}}" alt="salao_3">
                     </figure>
                 </li>
 
@@ -103,22 +103,22 @@
             <ul class="products-showcase clearfix">
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_5.jpg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_5.jpg')}}" alt="mascara">
                     </figure>
                 </li>
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_6.jpeg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_6.jpeg')}}" alt="unhas">
                     </figure>
                 </li>
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_1.jpg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_1.jpg')}}" alt="salao_4">
                     </figure>
                 </li>
                 <li>
                     <figure class="weed-photo">
-                        <img src="/build/css/img/salao_8.jpeg" alt="salao">
+                        <img src="{{ asset('build/css/img/salao_8.jpeg')}}" alt="spa">
                     </figure>
                 </li>
 
@@ -131,7 +131,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
-                    <img src="/build/css/img/app-iPhone.png" alt="Stay High app on iPhone" class="app-screen">
+                    <img src="{{ asset('build/css/img/app-iPhone.png')}}" alt="BeautyPass app on iPhone" class="app-screen">
                 </div>
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step">
@@ -146,9 +146,8 @@
                         <div>3</div>
                         <p>Curta um tempo com você mesma. Você merece esse cuidado</p>
                     </div>
-
-                    <a href="#" class="btn-app"><img src="/build/css/img/download-app.svg" alt="Apple store button"></a>
-                    <a href="#" class="btn-app"><img src="/build/css/img/download-app-android.png" alt="Play store button"></a>
+                    <a href="#" class="btn-app"><img src="{{ asset('build/css/img/download-app.svg')}}" alt="Apple store button"></a><a href="#" class="btn-app"><img src="/build/css/img/download-app-android.png" alt="Play store button"></a>
+                    <a href="#" class="btn-app"><img src="{{ asset('build/css/img/download-app-android.png')}}" alt="Play store button"></a>
                 </div>
             </div>
         </section>
@@ -159,7 +158,7 @@
             </div>
             <div class="row">
                 <div class="col span-1-of-4 box">
-                    <img src="/build/css/img/Montreal.jpg" alt="Montreal">
+                    <img src="{{ asset('build/css/img/Montreal.jpg')}}" alt="Rio de Janeiro">
                     <h3>Rio de Janeiro</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -175,7 +174,7 @@
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="/build/css/img/Toronto.jpg" alt="Toronto">
+                    <img src="{{ asset('build/css/img/Toronto.jpg')}}" alt="São Paulo">
                     <h3>São Paulo</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -191,7 +190,7 @@
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="/build/css/img/Ottawa.jpg" alt="Ottawa">
+                    <img src="{{ asset('build/css/img/Ottawa.jpg')}}" alt="Florianópolis">
                     <h3>Florianópolis</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
@@ -207,7 +206,7 @@
                     </div>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <img src="/build/css/img/Quebec.jpg" alt="Quebec City">
+                    <img src="{{ asset('build/css/img/Quebec.jpg')}}" alt="Belo Horizonte">
                     <h3>Belo Horizonte</h3>
                     <div class="city-feature">
                         <i class="ion-ios-person icon-small"></i>
