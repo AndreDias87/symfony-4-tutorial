@@ -25,7 +25,11 @@ Encore
     ])
     .addStyleEntry('css/app', [
         './node_modules/bootstrap/dist/css/bootstrap.min.css',
-        './assets/css/app.css'
+        './assets/css/app.css',
+        './assets/css/grid.css',
+        './assets/css/normalize.css',
+        './assets/css/queries.css',
+        './assets/css/style.css'
     ])
     //.addEntry('page1', './assets/js/page1.js')
     //.addEntry('page2', './assets/js/page2.js')

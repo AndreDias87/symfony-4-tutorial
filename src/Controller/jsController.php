@@ -15,8 +15,7 @@ class jsController extends Controller
      */
     public function index()
     {
-        return $this->render(
-            'raw_Html/index.html',
+        return $this->render('js/index.html.twig',
             [
 
             ]

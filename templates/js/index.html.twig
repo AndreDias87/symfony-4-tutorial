@@ -2,14 +2,413 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Javascript!{% endblock %}</title>
+    <title>{% block title %}BeautyPass{% endblock %}</title>
     {% block stylesheets %}
         <link rel="stylesheet" href="{{ asset('build/css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/normalize.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/grid.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('build/css/queries.css') }}"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     {% endblock %}
 </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="/build/css/img/bp.png" alt="Stay High logo" class="logo">
+                    <ul class="main-nav">
+                        <li><a href="#">The Beauty Pass</a></li>
+                        <li><a href="#">Como funciona</a></li>
+                        <li><a href="#">Nossa rede</a></li>
+                        <li><a href="#">Registrar-se</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero-text-box">
+                <h1>Também quero ser paparicada...<br>A qualquer hora e lugar!</h1>
+                <a class="btn btn-full" href="#">Monstre-me como</a>
+                <a class="btn btn-ghost" href="#">Por que se cadastrar</a>
+            </div>
 
-<body>
-    <script src="/build/js/script.js"></script>
-</body>
+        </header>
+
+        <section class="section-features">
+            <div class="row">
+                <h2>Um salão a poucos metros de você</h2>
+                <p class="long-copy">
+                    Conheça o BeautyPass, o serviço que faz sua vaidade ser nada mais que uma rotina, independente de onde você estiver!
+                </p>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <!--<i class="ion-ios-calendar-outline icon-big"></i>-->
+                    <i class="fas fa-calendar-alt icon-big"></i>
+                    <h3>Em qualquer lugar</h3>
+                    <p>
+                        Estamos espalhados por todos os cantos do país. Viagem a trabalho? Estaremos contigo. Perto de casa? Também. Saiu da rotina? Ainda assim estaremos por perto caso você precise de nós.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <!--<i class="ion-ios-timer-outline icon-big"></i>-->
+                    <i class="fas fa-clock icon-big"></i>
+                    <h3>Ao seu alcance</h3>
+                    <p>
+                        Com nosso aplicativo você escolhe o serviço que quiser, com o profissional que preferir, de acordo com a sua agenda. Pesquise por localidade, serviço ou disponibilidade de agenda.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <!--<i class="ion-ios-cloud-download-outline icon-big"></i>-->
+                    <i class="fas fa-bezier-curve icon-big"></i>
+                    <h3>Flexível</h3>
+                    <p>
+                        Experimente novos salões, outros profissionais, outros serviços. Com o BeautyPass você escolhe como e quando quer ser paparicada sem ter que pagar a mais por isso.
+                    </p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <!--<i class="ion-ios-cart-outline icon-big"></i>-->
+                    <i class="fas fa-users icon-big"></i>
+                    <h3>Conheça pessoas</h3>
+                    <p>
+                        Troque ideias e confie em outras usuárias do BeautyPass. Poste fotos de seus looks e concorra a prêmios!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-products">
+            <ul class="products-showcase clearfix">
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_7.jpeg" alt="salao">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_2.jpg" alt="salao">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_9.jpg" alt="salao">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_4.jpg" alt="salao">
+                    </figure>
+                </li>
+
+            </ul>
+            <ul class="products-showcase clearfix">
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_5.jpg" alt="salao">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_6.jpeg" alt="salao">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_1.jpg" alt="salao">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="weed-photo">
+                        <img src="/build/css/img/salao_8.jpeg" alt="salao">
+                    </figure>
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="section-steps">
+            <div class="row">
+                <h2>Como o BeautyPass funciona &mdash; Você a três passos de um salão </h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="/build/css/img/app-iPhone.png" alt="Stay High app on iPhone" class="app-screen">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Escolha o plano que mais se adequa às suas necessidades e registre-se hoje mesmo!</p>
+                    </div>
+                    <div class="works-step">
+                        <div>2</div>
+                        <p>Marque um horário em um dos salões credenciados em nossa rede.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>3</div>
+                        <p>Curta um tempo com você mesma. Você merece esse cuidado</p>
+                    </div>
+
+                    <a href="#" class="btn-app"><img src="/build/css/img/download-app.svg" alt="Apple store button"></a>
+                    <a href="#" class="btn-app"><img src="/build/css/img/download-app-android.png" alt="Play store button"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-cities">
+            <div class="row">
+                <h2>Cidades onde o BeautyPass já chegou</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <img src="/build/css/img/Montreal.jpg" alt="Montreal">
+                    <h3>Rio de Janeiro</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person icon-small"></i>
+                        1200+ membros
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-flask icon-small"></i>
+                        12+ salões
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@beautypass_mtl</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="/build/css/img/Toronto.jpg" alt="Toronto">
+                    <h3>São Paulo</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person icon-small"></i>
+                        2200+ membros
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-flask icon-small"></i>
+                        23+ salões
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@beautypass_trn</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="/build/css/img/Ottawa.jpg" alt="Ottawa">
+                    <h3>Florianópolis</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person icon-small"></i>
+                        600+ membros
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-flask icon-small"></i>
+                        7+ salões
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@beautypass_otw</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="/build/css/img/Quebec.jpg" alt="Quebec City">
+                    <h3>Belo Horizonte</h3>
+                    <div class="city-feature">
+                        <i class="ion-ios-person icon-small"></i>
+                        400+ membros
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-ios-flask icon-small"></i>
+                        10+ salões
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@beautypass_qc</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-testimonials">
+            <div class="row">
+                <h2>O que nossos membros dizem sobre o BeautyPass</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Beautypass é simplesmente incrível. Eu viajo a trabalho com muita frequência e sem o BeautyPass eu quase não conseguia me organizar e ter um tempo para cuidar de mim. Hoje me sinto bonita o tempo todo.
+                        <cite><img src="/build/css/img/customer-1.jpg" alt="customer 1">Maria Fernanda</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Preco justo, rede ampla e fácil de usar. Eu venho tentando diferentes salões e já tenho alguns favoritos. Visito salões que eu nem imaginava que existiam. Tenho experimentado novos servicos também.
+                        <cite><img src="/build/css/img/customer-2.jpg" alt="customer 2">Joana Silva</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                        Muitas vezes eu deixava para fazer unhas e sobrancelhas na semana seguinte. Fosse por preguica, ou por querer economizar dinheiro, parecia que eu nunca reservava um tempinho para mim. Hoje isso não acontece mais.
+                        <cite><img src="/build/css/img/customer-3.jpg" alt="customer 1">Mariana Klein</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-plans">
+            <div class="row">
+                <h2>Tenha acesso à nossa rede hoje mesmo</h2>
+
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Premium</h3>
+                            <p class="plan-price">R$119 <span>/ mês</span></p>
+                            <p class="plan-price-joint">Toda a rede à sua disposicão</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fas fa-check-square icon-small"></i>Cabelo</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Unha</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Sobrancelha</li>
+                                <li><i class="fas fa-check-square icon-small"></i></i>Spa</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Registre-se</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Clássico</h3>
+                            <p class="plan-price">R$99 <span>/ mês</span></p>
+                            <p class="plan-price-joint">Para os servicos clássico</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fas fa-check-square icon-small"></i>Cabelo</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Unha</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Sobrancelha</li>
+                                <li><i class="fas fa-check-square icon-small"></i>A qualquer horário</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Registre-se</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3">
+                    <div class="plan-box">
+                        <div>
+                            <h3>Flexível</h3>
+                            <p class="plan-price">R$75 <span>/ mês</span></p>
+                            <p class="plan-price-joint">Para os horários menos concorridos</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fas fa-check-square icon-small"></i>3 joints every week</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Order from 8am to 12pm</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Access to new blends</li>
+                                <li><i class="fas fa-check-square icon-small"></i>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Registre-se</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-form">
+            <div class="row">
+                <h2>Fale conosco!</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Nome</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Seu nome" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Seu email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">Como chegou até nós?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="find-us" id="find-us">
+                                <option value="amigos" selected>Amigos</option><option value="search">Search engine</option>
+                                <option value="anúncio">Anúncio</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Newsletter?</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="checkbox" name="news" id="news" checked> Sim, por favor
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>Deixe seu recado</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <textarea name="message" placeholder="Seu recado"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col span-1-of-3">
+                                <label>&nbsp</label>
+                            </div>
+                            <div class="col span-2-of-3">
+                                <input type="submit" value="Enviar!">
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2019 by BeautyPass. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
 </html>
