@@ -1,4 +1,6 @@
 var Encore = require('@symfony/webpack-encore');
+var webpack = require('webpack');
+var glob = require("glob");
 
 Encore
     // directory where compiled assets will be stored
@@ -24,6 +26,8 @@ Encore
         './node_modules/holderjs/holder.min.js',
         './assets/js/app.js',
     ])
+    .addEntry('img', glob.sync('./assets/images/*'))
+
     .addStyleEntry('css/app', [
         './node_modules/bootstrap/dist/css/bootstrap.min.css',
         './assets/css/app.css',
@@ -53,7 +57,7 @@ Encore
     .enableVersioning(Encore.isProduction())
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader()
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
