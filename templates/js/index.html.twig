@@ -11,7 +11,12 @@
         <link rel="stylesheet" href="{{ asset('build/css/queries.css') }}"/>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     {% endblock %}
-    <script></script>
+    {% javascripts %}
+        <script type="text/javascript" src="{{ asset('build/js/app.js') }}"></script>
+    {% endjavascripts %}
+    <script>
+
+    </script>
 </head>
     <body>
         <header>
