@@ -5,84 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afecea31-b2b2-4e0f-a443-a405169c6936" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/Montreal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Ottawa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Quebec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Toronto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/app-iPhone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/customer-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/customer-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/customer-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/download-app-android.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/download-app.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marijuana_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/salao_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/weed_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/weed_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/Montreal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/Ottawa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/Quebec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/Toronto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/app-iPhone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/bp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/customer-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/customer-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/customer-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/download-app-android.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/download-app.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/marijuana_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/salao_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/weed_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/weed_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/js/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/js/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -107,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -125,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -322,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,6 +262,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,18 +328,19 @@
       <workItem from="1557193120924" duration="5495000" />
       <workItem from="1559523998030" duration="6064000" />
       <workItem from="1560023643124" duration="13119000" />
-      <workItem from="1563229503420" duration="6494000" />
+      <workItem from="1563229503420" duration="7667000" />
+      <workItem from="1563499305310" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182127000" />
+    <option name="totallyTimeSpent" value="183558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="-2" width="1853" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2883232" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29164362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -729,14 +654,14 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -745,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/js/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
