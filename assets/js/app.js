@@ -9,7 +9,7 @@
 require('../css/app.css');
 
 // any Image you require will output into a single file
-require('../images/bp.png');
+//require('../images/bp.png');
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to require it.
 // var $ = require('jquery');
