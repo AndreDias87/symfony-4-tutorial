@@ -8,7 +8,6 @@
 // any CSS you require will output into a single css file (app.css in this case)
 require('../css/app.css');
 require('../css/grid.css');
-require('../css/ionicons.min.css');
 require('../css/normalize.css');
 require('../css/queries.css');
 require('../css/style.css');
